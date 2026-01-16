@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphone",
+    "description": "High quality sound with noise cancellation",
+    "price": 2500,
+    "image": "https://i.ibb.co.com/BH8T0H9w/headphones-displayed-against-dark-background.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "description": "Track fitness and notifications",
+    "price": 3200,
+    "image": "https://i.ibb.co.com/35RFzPQx/rendering-smart-home-device.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Laptop Backpack",
+    "description": "Water-resistant and spacious for daily use",
+    "price": 1800,
+    "image": "https://i.ibb.co.com/h1Zp19M3/man-packing-away-his-laptop-into-bag.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass",
+    "price": 1500,
+    "image": "https://i.ibb.co.com/CKVFmKcT/high-angle-smart-speaker-home.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gaming Mouse",
+    "description": "RGB lighting with high precision sensor",
+    "price": 1200,
+    "image": "https://i.ibb.co.com/3m6tWsKG/ai-powered-device-concept.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mechanical Keyboard",
+    "description": "Durable keys with tactile feedback",
+    "price": 2800,
+    "image": "https://i.ibb.co.com/xSctrgwx/ai-powered-device-concept-1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Action Camera",
+    "description": "Record 4K videos in extreme conditions",
+    "price": 4500,
+    "image": "https://i.ibb.co.com/xKjf1Wxd/young-woman-traveling-country-side.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Drone",
+    "description": "Quadcopter drone with HD camera",
+    "price": 8000,
+    "image": "https://i.ibb.co.com/nq0XtfN4/quadcopter-flying-nature.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fitness Band",
+    "description": "Monitor heart rate and sleep",
+    "price": 900,
+    "image": "https://i.ibb.co/WxqY3Vx/fitness-band.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Portable Charger",
+    "description": "High capacity power bank for travel",
+    "price": 1100,
+    "image": "https://i.ibb.co.com/v4CjMvSw/71-NVBNr-F1p-L-AC-UF894-1000-QL80.jpg"
+  }
+]
