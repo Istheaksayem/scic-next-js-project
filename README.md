@@ -32,4 +32,4 @@ The app includes public pages, authentication, protected routes, and product man
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/Istheaksayem/scic-next-js-project.git

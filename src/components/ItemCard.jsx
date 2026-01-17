@@ -6,6 +6,7 @@ const ItemCard = ({ item }) => {
         <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <div className="relative h-48 mb-4">
                 <Image
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     src={item.image}
                     alt={item.name}
                     fill

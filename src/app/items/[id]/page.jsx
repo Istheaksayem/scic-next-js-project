@@ -2,12 +2,12 @@ import items from "@/data/items.json";
 import Image from "next/image";
 import Link from "next/link";
 
-const ItemDetailsPage = ({ params }) => {
-  const { id } = params;
-
-  const item = items.find((item) => item.id.toString() === id);
+const ItemDetailsPage = async ({ params }) => {
+  const { id } = await params;
   console.log("params id:", id);
-  console.log("items:", items);
+  const item = items.find((item) => item.id.toString() === id);
+
+  // console.log("items:", items);
 
 
   if (!item) {
@@ -25,9 +25,14 @@ const ItemDetailsPage = ({ params }) => {
           <Image
             src={item.image}
             alt={item.name}
-            fill
+            width={200}
+            height={100}
             className="object-cover rounded-xl"
           />
+          {/* <img
+            src={item.image}
+
+          /> */}
         </div>
 
         <div>
