@@ -16,6 +16,12 @@ const nextConfig = {
         hostname: 'i.ibb.co',
         // port: '',
         pathname: '/**',
+      },
+      {
+       protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        // port: '',
+        pathname: '/**',
       }
     ]
   },

@@ -10,17 +10,26 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [showPass, setShowPass] = useState(false);
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+
 
   const handleLogin = (e) => {
     e.preventDefault();
 
     if (email === "admin@example.com" && password === "123456") {
       document.cookie = "auth=true; path=/";
-      router.push("/items");
+      setError("");
+      setSuccess(" Login successful! Redirecting...");
+
+      setTimeout(() => {
+        router.push("/items");
+      }, 1500);
     } else {
+      setSuccess("");
       setError("❌ Invalid email or password");
     }
   };
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500">
@@ -38,6 +47,12 @@ export default function LoginPage() {
         {error && (
           <p className="text-red-500 text-sm mb-4 text-center">{error}</p>
         )}
+        {success && (
+          <p className="text-green-600 text-sm mb-4 text-center font-medium">
+            {success}
+          </p>
+        )}
+
 
         {/* Email */}
         <div className="relative mb-4">
