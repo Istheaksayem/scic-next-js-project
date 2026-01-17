@@ -9,11 +9,10 @@ The app includes public pages, authentication, protected routes, and product man
 
 - Public Landing Page
 - Mock Authentication (Login)
-- Protected Add Product Page
+-
 - Product List Page
 - Product Details Page
-- Add Product with Database / JSON storage
-- Toast Notification on Successful Product Creation
+- Add Product JSON storage
 - Route Protection for Unauthenticated Users
 
 ---
@@ -23,8 +22,8 @@ The app includes public pages, authentication, protected routes, and product man
 - Next.js 15/16 (App Router)
 - Express.js (API) / Local JSON
 - Tailwind CSS
-- React Hot Toast
-- Node.js
+
+  
 
 ---
 
